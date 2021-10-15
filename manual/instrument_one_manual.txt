@@ -1,0 +1,63 @@
+INSTRUMENT ONE MANUAL
+=====================
+Instrument One is a device that allows guitar sounds to be played via movement. It consists of three parts; an access switch, a wristband and a base unit.
+
+Basic Operation
+===============
+
+Power On
+--------
+First, switch on the wristband. Next, ensure the USB memory stick is connected to the base unit. Switch on the base unit by connecting the USB power adapter. Once the base unit is booted, it will automatically attempt to connect wirelessly to the wristband; this process can sometimes take a few seconds.
+
+Songs
+-----
+There are four songs to choose from. The guitar sound is configured differently for each song. Each song has a backing track loaded from the USB Memory stick when the base unit is powered on. Songs can be played using the Play/Pause and Stop buttons.
+
+Playing
+-------
+Eoin will use his right arm to play the strings of the virtual guitar. The wristband will track arm movement; therefore, strap the wristband to Eoin’s right wrist. Ensure that the ‘RH Side’ sticker is indeed facing the right-hand side.
+
+The access switch is used to change the scale. There are three scales for Eoin to choose from within each song. Each scale has a colour associated with it; Red, Green and Blue. Position the switch so that Eoin can press it using his left cheek.
+
+Position the base unit so that the speakers are facing Eoin and that he can see the LEDs at the back of the unit clearly. The LEDs are used to indicate to Eoin which scale is currently selected.
+
+Volume
+------
+The volume of the speakers is set using the ‘Speaker Volume’ dial. This dial has no effect on the ‘Audio Output’ socket. The volume of the ‘Audio Output’ socket is set using the Mix controls described overleaf.
+
+Wristband
+---------
+The wristband has an internal battery that needs to be charged before use. Connect the USB power adapter and place the power switch in the On/Charge position to charge the battery.
+
+If the wristband fails to connect or loses connection at any point, just press the ‘Reconnect’ button to attempt to reconnect.
+Advanced Operation
+
+Songs
+-----
+Songs are presets that store the following:
+⦁	A backing track.
+⦁	A guitar sound.
+⦁	The scale and root note for each Zone.
+⦁	The mix levels of the backing track and guitar.
+
+Backing Tracks
+--------------
+The backing tracks used by each song are contained in a folder named ‘songs’ on the USB memory stick. The songs are 16 bit, 44.1 kHz Wav files labelled 1.wav through to 4.wav and correspond to each of the four songs.
+
+To change a backing track, simply replace the corresponding Wav file on the USB memory stick. Once the USB Memory stick is reconnected to the base unit, the song will need to be reselected for these changes to take effect.
+
+Guitar
+------
+There are three guitars; Classic Rock, Hard Rock and Acoustic, which can be selected via the ‘Guitar’ menu.
+
+Zones
+-----
+‘Zone’ is the term used to describe the scales available to Eoin within a song. The Zones are coloured Red, Green and Blue. Each Zone has a scale and root note assigned to it, accessed via the Zone menu.
+
+Mix
+---
+The level of the backing track and guitar of each song can be set within the Mix menu. The ‘Master’ parameter in the Mix menu controls the level of both the Audio Output and speakers and is a global parameter not stored with individual songs.
+
+USB MIDI
+--------
+A class-compliant MIDI output is provided by the USB MIDI socket. The device will appear as ‘Teensy MIDI’ and transmits note data according to the selected Zone.
